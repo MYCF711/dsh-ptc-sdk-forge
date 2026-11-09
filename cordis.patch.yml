@@ -1,0 +1,5 @@
+# dsh-ptc-sdk-forge bundle patch
+# 只新增一个宿主插件行；不切换 executor、不注册 preset、不改官方组合。
+- insert:
+    - id: ptc-sdk-forge
+      name: dsh-ptc-sdk-forge

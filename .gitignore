@@ -1,0 +1,10 @@
+node_modules/
+artifacts/
+coverage/
+*.log
+.DS_Store
+node.json
+project.json
+HANDOFF.md
+TASKS.md
+tests/*.local.mjs

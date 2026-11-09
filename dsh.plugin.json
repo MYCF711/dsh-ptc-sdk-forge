@@ -1,0 +1,15 @@
+{
+  "id": "dsh-external/dsh-ptc-sdk-forge",
+  "version": "0.1.0",
+  "main": "./src/index.js",
+  "description": "模式无关的 PTC SDK 创建与运行工具；保存和调用版本化 PTC 程序，不改变 Agent 外层 executor。",
+  "engines": {
+    "dsh": "0.2.2-rc.1"
+  },
+  "contributes": {
+    "tools": [
+      "ptc_sdk"
+    ],
+    "skills": []
+  }
+}
